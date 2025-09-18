@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Fundamentals Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Mastering JavaScript Fundamentals</h1>
+    <p>By: Lawrence Omanya</p>
+
+    <!-- ==========================
+       Part 1: JavaScript Basics
+       ========================== -->
+    <section>
+        <h2>Part 1: Basics — Conditionals</h2>
+        <p>Enter your marks to see your grade:</p>
+        <input type="number" id="marks" placeholder="Enter marks">
+        <button onclick="checkGrade()">Check Grade</button>
+        <p id="result"></p>
+    </section>
+
+    <!-- ==========================
+       Part 2: Functions
+       ========================== -->
+    <section>
+        <h2>Part 2: Functions — Reusability</h2>
+        <button onclick="showTotals()">Calculate Totals</button>
+        <p id="totalsResult"></p>
+
+        <p id="secret" style="display:none;">Surprise!</p>
+        <button onclick="toggleSecret()">Toggle Secret</button>
+    </section>
+
+    <!-- ==========================
+       Part 3: Loops
+       ========================== -->
+    <section>
+        <h2>Part 3: Loops</h2>
+        <button onclick="listFruits()">Show Fruits</button>
+        <ul id="fruitList"></ul>
+
+        <button onclick="startCountdown()">Start Countdown</button>
+        <p id="countdown"></p>
+    </section>
+
+    <!-- ==========================
+       Part 4: DOM Manipulation
+       ========================== -->
+    <section>
+        <h2>Part 4: DOM Manipulation</h2>
+        <h3 id="title">Welcome</h3>
+        <button onclick="changeText()">Change Title</button>
+
+        <ul id="dynamicList"></ul>
+        <button onclick="addItem()">Add Dynamic Item</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
